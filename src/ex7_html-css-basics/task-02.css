@@ -1,0 +1,27 @@
+section {
+    border-bottom: 2px solid grey;
+}
+
+body {
+    padding-left: 20px;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+}
+
+.bg-green {
+    background: green;
+}
+
+.paragraph {
+    display: block;
+    width: 600px;
+
+ 
+}
+
+.paragraph p:nth-child(2n) {
+    margin-left: 40px;
+   }

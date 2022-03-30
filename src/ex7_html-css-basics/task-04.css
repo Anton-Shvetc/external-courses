@@ -1,0 +1,40 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    padding-left: 20px;
+}
+
+
+
+.bg-green {
+    background: green;
+}
+.bg-grey {
+background: grey;
+}
+.bg-blue {
+    background: blue;
+}
+
+
+.img-block {
+    text-align: center;
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+}
+.img-block img {
+    width: 100%;
+}
+
+.paragraph {
+    display: block;
+    width: 600px;
+
+ 
+}
+
+.paragraph p:nth-child(2n) {
+    margin-left: 40px;
+   }
