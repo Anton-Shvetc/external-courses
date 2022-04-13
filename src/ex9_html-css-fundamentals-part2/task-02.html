@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task-02</title>
+    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="./task-02.css" />
+  </head>
+  <body>
+      <main>
+
+    
+    <form action="" class="form__contact">
+      <fieldset>
+        <legend>Personal Data</legend>
+        <div class="personal">
+          <div>
+            <label for="surname">Surname</label>
+            <input type="text" id="surname" name="surname" />
+          </div>
+          <div>
+            <label for="firstname">First name</label>
+            <input type="text" id="firstname" name="firstname" />
+          </div>
+          <div>
+            <label for="middlename">Middle name</label>
+            <input type="text" id="middlename" name="middlename" />
+          </div>
+
+          <div>
+            <span>You are</span>
+            <input type="radio" id="male" name="gender" />
+            <label for="male">male</label>
+            <input type="radio" id="female" name="gender" />
+            <label for="female">female</label>
+          </div>
+
+          <label for="age">Age</label>
+          <input type="text" id="age" name="age" />
+        </div>
+
+        <span>County of Residence</span>
+        <select name="country">
+          <option value="contry31">USA</option>
+          <option value="contry32">Russia</option>
+          <option value="contry3">Other</option>
+        </select>
+
+        <div>
+          <span>City</span>
+          <input type="checkbox" id="ryazan" name="city" />
+          <label for="ryazan">Ryazan</label>
+          <input type="checkbox" id="moscow" name="city" />
+          <label for="moscow">Moscow</label>
+        </div>
+        <div>
+          <label for="photo">Photography</label>
+          <input type="file" id="photo" name="photo" />
+        </div>
+        <hr />
+
+        <div>
+          <span>Title</span>
+        
+            <textarea disabled rows="10">
+             Tehnologies
+                Web Master
+                Database Administartor
+                Computer-aided-design
+            Finance
+                Economic Planning
+                Managment accounting
+                Budgeting and planning      
+                </textarea
+            >
+        
+        </div>
+  
+        <span>Slary</span>
+        <input type="range" min="0" max="100" step="1" value="50"  />
+        <textarea
+          style="width: 300px; height: 150px; outline: none; display: block"
+          placeholder="Tell us about yourself..."
+        ></textarea>
+      </fieldset>
+      <fieldset>
+        <legend>Contact information</legend>
+        <div>
+          <label for="site">Site</label>
+          <input type="url" id="site" name="site" />
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" />
+        </div>
+        <div>
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone" name="phone" />
+        </div>
+      </fieldset>
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" />
+      <div>
+        <button type="submit">Отправить</button>
+        <button type="reset">Сбросить</button>
+      </div>
+    </form>
+</main>
+  </body>
+</html>
