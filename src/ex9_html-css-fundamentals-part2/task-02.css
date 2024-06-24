@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+   
+
+}
+main {
+   width: 500px;
+   margin: 0 auto;
+
+}
+input {
+    margin: 10px;
+}
+
+hr {
+    margin-bottom: 10px;
+}
+
+fieldset {
+    width: 500px;
+    margin-left: 3px;
+    margin-bottom: 3px;
+    padding: 5px;
+}
+
+textarea::-webkit-input-placeholder {
+    color: #000;
+}
+
+
+
+
+

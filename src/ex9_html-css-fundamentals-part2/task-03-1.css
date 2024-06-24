@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+    font-weight: 200;
+}
+
+#table {
+    border-spacing: 3px 0;
+    text-align: center;
+
+}
+
+.title {
+    text-transform: uppercase;
+}
+
+th {
+    background: #e3eaf3;
+    color: #8999a7;
+    padding: 4px 10px;
+
+    font-size: 12px;
+
+}
+
+td {
+    padding: 15px 10px;
+}
+
+.customer {
+    text-transform: capitalize;
+}
+
+.outstanding {
+    text-align: left;
+}
+
+.items {
+    background: #f2f6fa;
+
+}
+
+.items:nth-child(2n+1) {
+    background: #e8edf4;
+
+}
+
+.items:hover {
+    background: #e2e5e9;
+}
